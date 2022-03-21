@@ -1,0 +1,21 @@
+<html>
+<head><title>Pilih Jurusan</title></head>
+<body>
+    <FORM ACTION="prosesradio.php" METHOD="POST" NAME="input">
+        <h2>Pilih Jurusan Anda :</h2>
+        <input type="radio" name="jurusan" value="TI" <checked>
+        Teknik Informatika<br>
+        <input type="radio" name="jurusan" value="SI">
+        Sistem Informasi<br>
+        <input type="radio" name="jurusan" value="SK">
+        Sistem Komputer<br>
+        <input type="radio" name="jurusan" value="KA">
+        Komputerisasi Kuntansi<br>
+        <input type="submit" name="Pilih">
+    </FORM>
+</body>
+</html>
+
+
+
+
